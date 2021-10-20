@@ -30,7 +30,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: github.ref_type
         run: |
-          echo $(github.ref) 
-          echo $(github.ref_type)
+          echo ${{ github.ref }} 
+          echo ${{ github.ref_type }}
           echo Add other actions to build,
           echo test, and deploy your project.
